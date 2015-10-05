@@ -531,8 +531,8 @@ Zerg.Grunt=AttackableUnit.extends({
                 ]
             }
         },
-        width: 61,
-        height: 50,//128N-92
+        width: 54,
+        height: 59,//128N-92
         frame: {
             moving: 3,
             dock: 1,
