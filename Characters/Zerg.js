@@ -294,7 +294,7 @@ Zerg.MegaZergling=AttackableUnit.extends({  //ici, un test de création choses
     },
     prototypePlus: {
         //Add basic unit info
-        name: "Portrait",
+        name: "Portrait",  //in this line, the name will be used to fetch the associated sprite file (here, portrait.png)
         imgPos: {
             moving: {
                 left: [
