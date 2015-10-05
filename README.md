@@ -1,5 +1,5 @@
-# StarCraft
-HTML5 version for StarCraft game
+#My js game
+i use gloomyson's sources for my own project, and because o fthis the project is at the same state as gloomyson's 
 
 ## Version 1.0 includes below game elements:
 * Different units for Zerg/Terran/Protoss complete
