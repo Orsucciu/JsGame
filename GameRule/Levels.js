@@ -18,8 +18,8 @@ var Levels=[
             new Terran.SCV({x:100,y:400});
             new Zerg.Drone({x:150,y:400});
             new Protoss.Probe({x:200,y:400});
-			new Zerg.Grunt({x:200,y:600});
-			//new Orc.Grunt({x:200,y:500});
+	    new Zerg.Grunt({x:200,y:600});
+	    //new Orc.Grunt({x:200,y:500});
             //Add enemy
             new Terran.SCV({x:600,y:400,isEnemy:true});
             new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
@@ -268,6 +268,41 @@ var Levels=[
             new Building.ProtossBuilding.TeleportGate({x:750,y:170});
             new Building.ProtossBuilding.Pyramid({x:750,y:320});
             new Building.ProtossBuilding.TeleportPoint({x:900,y:20});
+        }
+    },
+    {
+        level:11,
+	label:'Warcraft2',
+        load:function(){
+            //Load map
+            Map.setCurrentMap('Switchback');
+            Map.offsetX=50;
+            Map.offsetY=50;
+            //Apply race style
+            Game.race.choose('Terran');
+            //Load units
+            new Terran.BattleCruiser({x:100,y:100});
+            new Terran.Wraith({x:200,y:100});
+            new Terran.BattleCruiser({x:100,y:200});
+            new Terran.Wraith({x:200,y:200});
+            new Terran.BattleCruiser({x:100,y:300});
+            new Terran.Wraith({x:200,y:300});
+            new Terran.SCV({x:100,y:400});
+            new Zerg.Drone({x:150,y:400});
+            new Protoss.Probe({x:200,y:400});
+	    new Zerg.Grunt({x:200,y:600});
+	    //new Orc.Grunt({x:200,y:500});
+            //Add enemy
+            /*new Terran.SCV({x:600,y:400,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
+            new Zerg.Devourer({x:800,y:100,isEnemy:true});
+            new Zerg.Guardian({x:900,y:100,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:200,isEnemy:true});
+            new Zerg.Devourer({x:800,y:200,isEnemy:true});
+            new Zerg.Guardian({x:900,y:200,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:300,isEnemy:true});
+            new Zerg.Devourer({x:800,y:300,isEnemy:true});*/
+            new Zerg.Guardian({x:900,y:900,isEnemy:true});
         }
     },
     {
