@@ -290,7 +290,8 @@ var Levels=[
             new Terran.SCV({x:100,y:400});
             new Zerg.Drone({x:150,y:400});
             new Protoss.Probe({x:200,y:400});
-	    new Zerg.Grunt({x:200,y:600});
+	        new Orc.Grunt({x:200,y:600});
+			new Human.Footman({x:200, y:610});
 	    //new Orc.Grunt({x:200,y:500});
             //Add enemy
             /*new Terran.SCV({x:600,y:400,isEnemy:true});
