@@ -71,6 +71,7 @@ var Game={
          || mozRequestAnimationFrame || msRequestAnimationFrame || oRequestAnimationFrame;//Old browser compatible*/
         //Start loading
         Game.layerSwitchTo("GameLoading");
+		/******* IMPORTANT = ALL img used must be declared here first *******/
         //Zerg
         sourceLoader.load("img","img/Charas/Mutalisk.png","Mutalisk");
         sourceLoader.load("img","img/Charas/Devourer.png","Devourer");
@@ -117,10 +118,13 @@ var Game={
         sourceLoader.load("img","img/Charas/Scout.png","Scout");
         sourceLoader.load("img","img/Charas/Carrier.png","Carrier");
         sourceLoader.load("img","img/Charas/Corsair.png","Corsair");
-	//Orcs
-	sourceLoader.load("img","img/Charas/Grunt.png","Grunt");
-	//Humans
-	sourceLoader.load("img","img/Charas/Footman.png","Footman");
+		//Orcs  
+		sourceLoader.load("img","img/Charas/Grunt.png","Grunt");
+		sourceLoader.load("img","img/Charas/Dragon.png","Dragon");
+		sourceLoader.load("img","img/Charas/Catapult.png","Catapult");
+		sourceLoader.load("img","img/Charas/Ogre.png","Ogre");
+		//Humans
+		sourceLoader.load("img","img/Charas/Footman.png","Footman");
         //Neutre
         sourceLoader.load("img","img/Charas/Ragnasaur.png","Ragnasaur");
         sourceLoader.load("img","img/Charas/Rhynsdon.png","Rhynsdon");
@@ -153,6 +157,7 @@ var Game={
         sourceLoader.load("img","img/Charas/Burst.png","Burst");
         sourceLoader.load("img","img/Charas/BuildingBurst.png","BuildingBurst");
         sourceLoader.load("img","img/Charas/Portrait.png","Portrait");
+		sourceLoader.load("img","img/Charas/Icons.png","Icons");
         sourceLoader.load("img","img/Charas/Magic.png","Magic");
         sourceLoader.load("img","img/Menu/ControlPanel.png","ControlPanel");
         sourceLoader.load("img","img/Bg/GameStart.jpg","GameStart");

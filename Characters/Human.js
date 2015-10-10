@@ -85,15 +85,6 @@ Human.Footman=AttackableUnit.extends({
             mine:50,
             man:1,
             time:200
-        },
-        upgrade:['EvolveCarapace'],
-        items:{'4':undefined,
-            '5':{name:'gather'},
-            '7':{name:'BasicMutation'},
-            '8':{name:'AdvancedMutation'},
-            '9':{name:'Burrow',condition:function(){
-                return Magic.Burrow.enabled
-            }}
         }
     }
 });

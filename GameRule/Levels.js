@@ -18,8 +18,7 @@ var Levels=[
             new Terran.SCV({x:100,y:400});
             new Zerg.Drone({x:150,y:400});
             new Protoss.Probe({x:200,y:400});
-	    new Zerg.Grunt({x:200,y:600});
-	    //new Orc.Grunt({x:200,y:500});
+	        //new Orc.Grunt({x:200,y:500});
             //Add enemy
             new Terran.SCV({x:600,y:400,isEnemy:true});
             new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
@@ -40,6 +39,8 @@ var Levels=[
             Map.setCurrentMap('Volcanis');
             //Apply race style
             Game.race.choose('Zerg');
+			Map.offsetX=50;
+            Map.offsetY=50;
             //Load units
             new Zerg.Overlord({x:100,y:100});
             new Hero.HeroCruiser({x:100,y:200});
@@ -276,8 +277,8 @@ var Levels=[
         load:function(){
             //Load map
             Map.setCurrentMap('Switchback');
-            Map.offsetX=50;
-            Map.offsetY=50;
+            /*Map.offsetX=50;
+            Map.offsetY=50;*/
             //Apply race style
             Game.race.choose('Terran');
             //Load units
@@ -293,6 +294,33 @@ var Levels=[
 	        new Orc.Grunt({x:200,y:600});
 			new Human.Footman({x:200, y:610});
 	    //new Orc.Grunt({x:200,y:500});
+            //Add enemy
+            /*new Terran.SCV({x:600,y:400,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
+            new Zerg.Devourer({x:800,y:100,isEnemy:true});
+            new Zerg.Guardian({x:900,y:100,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:200,isEnemy:true});
+            new Zerg.Devourer({x:800,y:200,isEnemy:true});
+            new Zerg.Guardian({x:900,y:200,isEnemy:true});
+            new Zerg.Mutalisk({x:700,y:300,isEnemy:true});
+            new Zerg.Devourer({x:800,y:300,isEnemy:true});*/
+            new Zerg.Guardian({x:900,y:900,isEnemy:true});
+        }
+    },
+	    {
+        level:15,
+	label:'TESTS',
+        load:function(){
+            //Load map
+            Map.setCurrentMap('Switchback');
+            Map.offsetX=50;
+            Map.offsetY=50;
+            //Apply race style
+            Game.race.choose('Orc');
+            //Load units
+			//new Human.Footman({x:200, y:610});
+	        //new Orc.Grunt({x:200,y:500});
+			new Orc.Catapult({x:100, y:100})
             //Add enemy
             /*new Terran.SCV({x:600,y:400,isEnemy:true});
             new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
