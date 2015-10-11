@@ -138,12 +138,12 @@ Orc.TrollAxethrower=AttackableUnit.extends({
                 ]
             },
             dock: {
-                left: [8, 80, 160, 225, 300, 300, 300, 400],
-                top: [3, 3, 3, 3, 3, 3, 3, 3]
+                left: [0, 51, 102, 153, 204, 255, 306, 357],
+                top: [0, 0, 0, 0, 0, 0, 0, 0]
             },
         },
-        width: 54,
-        height: 59,//128N-92
+        width: 51,
+        height: 60,//128N-92
         frame: {
             moving: 3,
             dock: 1,

@@ -123,6 +123,17 @@ var Game={
 		sourceLoader.load("img","img/Charas/Dragon.png","Dragon");
 		sourceLoader.load("img","img/Charas/Catapult.png","Catapult");
 		sourceLoader.load("img","img/Charas/Ogre.png","Ogre");
+		sourceLoader.load("img","img/Charas/TrollAxethrower.png","TrollAxethrower");
+		sourceLoader.load("img","img/Charas/Death Knight.png","Death Knight");
+		sourceLoader.load("img","img/Charas/Giant Turtle.png","Giant Turtle");
+		sourceLoader.load("img","img/Charas/Goblin Sappers.png","Goblin Sappers");
+		sourceLoader.load("img","img/Charas/Goblin Zeppelin.png","Goblin Zeppelin");	
+		sourceLoader.load("img","img/Charas/Ogre Juggernaut.png","Ogre Juggernaut");
+		sourceLoader.load("img","img/Charas/Orc Oil Tanker.png","Orc Oil Tanker");
+		sourceLoader.load("img","img/Charas/Orc Transport.png","Orc Transport");
+		sourceLoader.load("img","img/Charas/Peon.png","Peon");
+		sourceLoader.load("img","img/Charas/Skeleton.png","Skeleton");
+		sourceLoader.load("img","img/Charas/TrollDestroyer.png","TrollDestroyer");	
 		//Humans
 		sourceLoader.load("img","img/Charas/Footman.png","Footman");
         //Neutre
