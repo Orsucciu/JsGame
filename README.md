@@ -1,7 +1,7 @@
 #My js game
 i use gloomyson's sources for my own project, and because of this the project is at the same state as gloomyson's 
 
-gloomyson wrote the whole file architecture, technically i'm just changing sprites, adding new methods and later i'll finish his work (when i'll be at the same level)
+gloomyson wrote the whole file architecture, so i'm just changing sprites, adding new methods and later i'll finish his work (when i'll be at the same level)
 
 ## Version 1.0 includes below game elements:
 * Different units for Zerg/Terran/Protoss complete
