@@ -832,11 +832,12 @@ Burst.DroneDeath=Burst.extends({
         },
         width:128,
         height:128,
-        frame:{
+        frame:{	
             burst:8
         }
     }
 });
+
 Burst.ZerglingDeath=Burst.extends({
     constructorPlus:function(props){
         //Nothing
@@ -1495,6 +1496,48 @@ Burst.KakaruDeath=Burst.extends({
         height:92,
         frame:{
             burst:8
+        }
+    }
+});
+
+Burst.TrollDestroyerDeath=Burst.extends({
+    constructorPlus:function(props){
+        //Nothing
+    },
+    prototypePlus:{
+        //Add basic unit info
+        name:"TrollDestroyer",
+        imgPos:{
+            burst:{
+                left:[9,9,9,9, 184,184,184,184, 360],
+                top:[95,95,95,95,95,95,95,95,95]
+            }
+        },
+        width:74,
+        height:66,
+        frame:{
+            burst:9
+        }
+    }
+});
+
+Burst.TrollAxethrowerDeath=Burst.extends({
+    constructorPlus:function(props){
+        //Nothing
+    },
+    prototypePlus:{
+        //Add basic unit info
+        name:"TrollAxethrower",
+        imgPos:{
+            burst:{
+                left:[128, 128, 128, 128, 250, 250, 250, 250, 69, 69, 69, 69],
+                top:[815, 815, 815, 815, 815, 815, 815, 815, 874, 874, 874, 874]
+            }
+        },
+        width: 56,
+        height: 65,
+        frame:{
+            burst:12
         }
     }
 });

@@ -168,7 +168,6 @@ var Game={
         sourceLoader.load("img","img/Charas/Burst.png","Burst");
         sourceLoader.load("img","img/Charas/BuildingBurst.png","BuildingBurst");
         sourceLoader.load("img","img/Charas/Portrait.png","Portrait");
-		sourceLoader.load("img","img/Charas/Icons.png","Icons");
         sourceLoader.load("img","img/Charas/Magic.png","Magic");
         sourceLoader.load("img","img/Menu/ControlPanel.png","ControlPanel");
         sourceLoader.load("img","img/Bg/GameStart.jpg","GameStart");

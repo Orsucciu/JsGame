@@ -320,7 +320,7 @@ var Levels=[
             //Load units
 			//new Human.Footman({x:200, y:610});
 	        //new Orc.Grunt({x:200,y:500});
-			new Orc.Catapult({x:100, y:100})
+			new Orc.TrollAxethrower({x:100, y:100})
             //Add enemy
             /*new Terran.SCV({x:600,y:400,isEnemy:true});
             new Zerg.Mutalisk({x:700,y:100,isEnemy:true});
