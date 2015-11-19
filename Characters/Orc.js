@@ -75,7 +75,7 @@ Orc.Grunt=AttackableUnit.extends({
         dieEffect:Burst.DroneDeath,
         isFlying:false,
         attackLimit:"ground",
-        unitType:Unit.SMALL,  //no idea what is it
+        unitType:Unit.SMALL,  //no idea what it does
         attackType:AttackableUnit.NORMAL_ATTACK,
         recover:Building.ZergBuilding.prototype.recover,
         cost:{
@@ -156,7 +156,7 @@ Orc.TrollAxethrower=AttackableUnit.extends({
         armor: 0,
         sight: 245,
         attackInterval: 2200,
-        portraitOffset: {x:251,y:4},
+        portraitOffset: {x:308,y:4},
         dieEffect:Burst.TrollAxethrowerDeath,
         isFlying:false,
         unitType:Unit.SMALL,
