@@ -1541,3 +1541,24 @@ Burst.TrollAxethrowerDeath=Burst.extends({
         }
     }
 });
+
+Burst.CatapultDeath=Burst.extends({
+    constructorPlus:function(props){
+        //Nothing
+    },
+    prototypePlus:{
+        //Add basic unit info
+        name:"Magic and Missiles",
+        imgPos:{
+            burst:{
+                left:[1459, 1542, 1622, 1702, 1790, 1893],
+                top:[128, 128, 128, 128, 128, 128]
+            }
+        },
+        width:60,
+        height:56,
+        frame:{
+            burst:6
+        }
+    }
+});

@@ -156,7 +156,7 @@ Orc.TrollAxethrower=AttackableUnit.extends({
         armor: 0,
         sight: 245,
         attackInterval: 2200,
-        portraitOffset: {x:308,y:4},
+        portraitOffset: {x:309,y:5},  //location of the unit's portrait
         dieEffect:Burst.TrollAxethrowerDeath,
         isFlying:false,
         unitType:Unit.SMALL,
@@ -172,7 +172,7 @@ Orc.TrollAxethrower=AttackableUnit.extends({
 
 Orc.Dragon=AttackableUnit.extends({
     constructorPlus:function(props){
-        //this.direction=3;  //define whre is the unit looking when created. remove line to make it random
+        //this.direction=3;  //define where is the unit looking when created. remove line to make it random
     },
     prototypePlus: {
         //Add basic unit info
@@ -265,55 +265,55 @@ Orc.Catapult=AttackableUnit.extends({
         imgPos: {
             moving: {
                 left: [
-                    [10, 10, 10, 10],
-                    [80, 80, 80],
-                    [160, 160, 160],
-                    [225, 225, 225],
-                    [300, 300, 300],
-                    [300, 300, 300],
-                    [300, 300, 300],
-                    [300, 300, 300]
+                    [0, 0],
+                    [60, 60],
+                    [135, 135],
+                    [205, 205],
+                    [280, 280],
+                    [342, 342],
+                    [423, 423],
+                    [495, 495]
                 ],
                 top: [
-                    [55, 108, 165, 220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220],
-                    [55, 108, 165,220]
+                    [0, 70],
+                    [0, 70],
+                    [0, 70],
+                    [0, 70],
+                    [0, 70],
+                    [0, 70],
+                    [0, 70],
+                    [0, 70]
                 ]
             },
             attack: {
                 left: [
-                    [1, 1, 1, 1],
-                    [80, 80, 80, 80],
-                    [145, 145, 145, 145],
-                    [225, 225, 225, 225],
-                    [300, 300, 300, 300],
-                    [300, 300, 300, 300],
-                    [300, 300, 300, 300],
-                    [300, 300, 300, 300]
+                    [0, 0],
+                    [60, 60],
+                    [135, 135],
+                    [205, 205],
+                    [280, 280],
+                    [342, 342],
+                    [423, 423],
+                    [495, 495]
                 ],
                 top: [
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300],
-                    [275, 300, 300, 300]
+                    [137, 208],
+                    [137, 208],
+                    [137, 208],
+                    [137, 208],
+                    [137, 208],
+                    [137, 208],
+                    [137, 208],
+                    [137, 208]
                 ]
             },
             dock: {
-                left: [4, 68, 135, 205, 280, 355, 423, 495],
-                top: [2, 2, 2, 2, 2, 2, 2, 2]
+                left: [0, 60, 135, 205, 280, 342, 423, 495],
+                top: [0, 2, 2, 2, 2, 2, 2, 2]
             },
         },
-        width: 49,
-        height: 59,//128N-92
+        width: 73,
+        height: 65,//128N-92
         frame: {
             moving: 3,
             dock: 1,
@@ -325,13 +325,12 @@ Orc.Catapult=AttackableUnit.extends({
         damage: 50,
         armor:50,
         sight:245,
-        meleeAttack: true,
-        attackInterval: 2200,
+        attackInterval: 5000,
         portraitOffset: {x:349,y:46},
-        dieEffect:Burst.DroneDeath,
+        dieEffect:Burst.Catapult,
         isFlying:false,
         attackLimit:"ground",
-        unitType:Unit.SMALL,
+        unitType:Unit.BIG,
         attackType:AttackableUnit.NORMAL_ATTACK,
         recover:Building.ZergBuilding.prototype.recover,
         cost:{
