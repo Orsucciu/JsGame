@@ -112,6 +112,3 @@ All needed sound effects, will later join them together and play each sound like
 
 ## The original code version 0.1 at:
 [http://www.nvhae.com/starcraft/](http://www.nvhae.com/starcraft/)
-
-## You can try the current version at :
-https://rawgit.com/theoNguyen/JsGame/master/index.html
